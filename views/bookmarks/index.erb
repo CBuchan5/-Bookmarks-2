@@ -1,8 +1,15 @@
 
 <ol>
   <% @bookmarks.each do |bookmark| %>
-    <li><%= bookmark %></li>
+    <li>   
+      <a href="<%= bookmark.url %>">
+        <%= bookmark.title %>
+      </a>   
+    
+    </li>
   <% end %>
 </ol>
+
+
 
 <a href=bookmarks/new> Add new bookmarks here. </a>
