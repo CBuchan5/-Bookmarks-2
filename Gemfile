@@ -11,6 +11,6 @@ group :development, :test do
   gem 'rubocop'
   gem 'simplecov'
   gem 'simplecov-console'
-  # gem 'sinatra/reloader'
+  gem 'sinatra/reloader'
   gem 'pg'
 end
